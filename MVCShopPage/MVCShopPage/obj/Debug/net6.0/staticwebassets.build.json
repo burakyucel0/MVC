@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "zQklT3GH6LcITCIVqwcuoZniD9fG8L2FYBSN/14H/70=",
+  "Source": "MVCShopPage",
+  "BasePath": "_content/MVCShopPage",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MVCShopPage\\wwwroot",
+      "Source": "MVCShopPage",
+      "ContentRoot": "C:\\Users\\z004j86v\\source\\repos\\MVCShopPage\\MVCShopPage\\wwwroot\\",
+      "BasePath": "_content/MVCShopPage",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\z004j86v\\source\\repos\\MVCShopPage\\MVCShopPage\\wwwroot\\assets\\favicon.ico",
+      "SourceId": "MVCShopPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\z004j86v\\source\\repos\\MVCShopPage\\MVCShopPage\\wwwroot\\",
+      "BasePath": "_content/MVCShopPage",
+      "RelativePath": "assets/favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\z004j86v\\source\\repos\\MVCShopPage\\MVCShopPage\\wwwroot\\css\\styles.css",
+      "SourceId": "MVCShopPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\z004j86v\\source\\repos\\MVCShopPage\\MVCShopPage\\wwwroot\\",
+      "BasePath": "_content/MVCShopPage",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\z004j86v\\source\\repos\\MVCShopPage\\MVCShopPage\\wwwroot\\js\\scripts.js",
+      "SourceId": "MVCShopPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\z004j86v\\source\\repos\\MVCShopPage\\MVCShopPage\\wwwroot\\",
+      "BasePath": "_content/MVCShopPage",
+      "RelativePath": "js/scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\scripts.js"
+    }
+  ]
+}

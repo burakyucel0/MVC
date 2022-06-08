@@ -1,0 +1,15 @@
+Yapılacak İşler
+
+1) https://startbootstrap.com/theme/business-casual tasarımının giydirilmesi 2) https://startbootstrap.com/template/shop-homepage
+
+· Layout page giydir ve index actionresult oluştur.
+
+· Ürün modelini oluştur
+
+· - Ad
+
+· - Fiyat
+
+· - İndirimLiFiyat
+
+· Index te bir liste hazırla en az 8 ürün ve listeyi actionresult a gönder
