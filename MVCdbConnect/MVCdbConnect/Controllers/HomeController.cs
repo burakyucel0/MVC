@@ -61,5 +61,21 @@ namespace MVCdbConnect.Controllers
 
             return View(products);
         }
+
+        public IActionResult UpdateProduct(int id)
+        {
+            var product = siemensContext.Products.FirstOrDefault(q => q.Id == id);
+
+            return View(product);
+        }
+
+        [HttpPost]
+        public IActionResult UpdateProduct(Product product)
+        {
+            siemensContext.Update(product);
+            siemensContext.SaveChanges();
+
+            return RedirectToAction("Products");
+        }
     }
 }

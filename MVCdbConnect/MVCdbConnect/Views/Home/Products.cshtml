@@ -7,6 +7,7 @@
         <th>Stock</th>
         <th>Order</th>
         <th>Discounted</th>
+        <th>Update</th>
     </tr>
 
     @foreach (var item in @Model)
@@ -19,9 +20,14 @@
             <td>@item.UnitInStock</td>
             <td>@item.UnitOnOrder</td>
             <td>@item.Discounted</td>
-
+    <td><input type="button" onclick="location.href='/home/updateproduct/@item.Id';" value="Update this value" /></td>
         </tr>
     }
 
+    <tr></tr>
+
 </table>
+
+
+
 
