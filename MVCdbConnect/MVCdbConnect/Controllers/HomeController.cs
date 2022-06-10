@@ -10,9 +10,7 @@ namespace MVCdbConnect.Controllers
         public IActionResult Index()
 
         {
-           
-
-          
+                     
 
             List<Suppliers> suppliersList = siemensContext.Suppliers.ToList();
 
@@ -24,10 +22,7 @@ namespace MVCdbConnect.Controllers
         public IActionResult Detail(int id)
         {
 
-
-
-            var idSup = siemensContext.Suppliers.Find(id);
-
+            var idSup = siemensContext.Suppliers.FirstOrDefault(q => q.Id == id);
 
 
             return View(idSup);

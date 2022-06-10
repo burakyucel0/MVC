@@ -2,6 +2,12 @@
 @{
 }
 
+@if(@Model is null)
+{
+    <p>Not found!</p>
+    return;
+}
+
 <table> 
     <tr>
         <th>ID</th>
@@ -13,7 +19,7 @@
 
     <tr>
         <td> @Model.Id </td>
-        <td> @Model.ContactName </td>
+        <td> @Model.CompanyName </td>
         <td> @Model.ContactName </td>
         <td> @Model.City </td>
         <td> @Model.Country </td>
