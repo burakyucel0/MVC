@@ -29,13 +29,37 @@ namespace MVCdbConnect.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add( Suppliers suppliers)
+        public IActionResult Add(Suppliers suppliers)
         {
 
             siemensContext.Add(suppliers);
             siemensContext.SaveChanges();
 
             return View();
+        }
+
+
+        [HttpGet]
+        public IActionResult AddProduct()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddProduct(Product product)
+        {
+
+            siemensContext.Add(product);
+            siemensContext.SaveChanges();
+
+            return View();
+        }
+
+        public IActionResult Products()
+        {
+            var products = siemensContext.Products.ToList();
+
+            return View(products);
         }
     }
 }

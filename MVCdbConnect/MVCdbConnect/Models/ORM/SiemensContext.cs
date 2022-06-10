@@ -12,6 +12,7 @@ namespace MVCdbConnect.Models.ORM
 
         public DbSet<Suppliers> Suppliers { get; set; }
 
+        public DbSet<Product> Products { get; set; }
 
     }
 }
